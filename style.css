@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: auto;
     padding: 0;
 }
 
@@ -19,7 +19,7 @@ nav {
     align-items: center;
     text-decoration: none;
     color: white;
-    }
+}
 
 a {
     text-decoration: none;
@@ -147,7 +147,7 @@ textarea {
     width: 75%;
     color: rgb(255, 255, 255);
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     min-height: 11rem;
@@ -178,11 +178,16 @@ textarea {
         width: 40%;
     }
 
-    nav, header {
+    nav,
+    header {
         width: 95%;
     }
 
-    .articulo1, .articulo2, .articulo3, .section1, .section2 {
+    .articulo1,
+    .articulo2,
+    .articulo3,
+    .section1,
+    .section2 {
         width: 95%;
     }
 
@@ -190,11 +195,13 @@ textarea {
         width: 90%;
     }
 
-    input, textarea {
+    input,
+    textarea {
         width: 95%;
     }
 
-    ul {width: 30%;
+    ul {
+        width: 30%;
         display: flex;
         flex-direction: column;
         min-height: 4rem;
@@ -214,11 +221,18 @@ textarea {
         width: 80%;
     }
 
-    nav, header, main, footer {
+    nav,
+    header,
+    main,
+    footer {
         width: 100%;
     }
 
-    .articulo1, .articulo2, .articulo3, .section1, .section2 {
+    .articulo1,
+    .articulo2,
+    .articulo3,
+    .section1,
+    .section2 {
         width: 100%;
     }
 
@@ -226,7 +240,8 @@ textarea {
         width: 90%;
     }
 
-    input, textarea {
+    input,
+    textarea {
         width: 95%;
     }
 
