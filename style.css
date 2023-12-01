@@ -107,7 +107,7 @@ header img {
 
 input {
     border: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(113, 110, 110);
     width: 110%;
 }
 
