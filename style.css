@@ -1,0 +1,238 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* background-color: chocolate; */
+}
+
+nav {
+    background-color: rgb(74, 74, 144);
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.nav1 {
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    min-height: 4rem;
+    list-style: none;
+}
+
+header {
+    background-color: rgb(57, 192, 149);
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    min-height: 25rem;
+}
+
+header img {
+    width: 10%;
+}
+
+.articulo1 {
+    background-color: white;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(46, 46, 89);
+    min-height: 35rem;
+}
+
+.articulo1 img {
+    width: 30%;
+    border-radius: 2.5%;
+}
+
+.articulo1 div {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.articulo2 {
+    background-color: rgb(57, 192, 149);
+    width: 75%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 25rem;
+}
+
+.articulo2 p {
+    columns: 2;
+    width: 40%;
+}
+
+.articulo3 {
+    background-color: white;
+    width: 75%;
+    color: rgb(46, 46, 89);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 40rem;
+}
+
+.articulo3 form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 110%;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 110%;
+    color: rgb(46, 46, 89);
+}
+
+.boton1 {
+    background-color: rgb(57, 192, 149);
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+}
+
+.boton2 {
+    background-color: rgb(57, 192, 149);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 5rem;
+    height: 3rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 {
+    background-color: rgb(74, 74, 144);
+    width: 75%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 11rem;
+}
+
+.section1 h3 {
+    text-align: center;
+}
+
+.section1 p {
+    text-align: center;
+}
+
+.section2 {
+    background-color: rgb(30, 30, 58);
+    width: 75%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 4rem;
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .articulo1 img {
+        width: 40%;
+    }
+
+    nav, header {
+        width: 95%;
+    }
+
+    .articulo1, .articulo2, .articulo3, .section1, .section2 {
+        width: 95%;
+    }
+
+    .articulo1 div {
+        width: 90%;
+    }
+
+    input, textarea {
+        width: 95%;
+    }
+
+    ul {width: 30%;
+        display: flex;
+        flex-direction: column;
+        min-height: 4rem;
+        list-style: none;
+    }
+
+    .articulo2 p {
+        columns: 2;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .articulo1 img {
+        width: 80%;
+    }
+
+    nav, header, main, footer {
+        width: 100%;
+    }
+
+    .articulo1, .articulo2, .articulo3, .section1, .section2 {
+        width: 100%;
+    }
+
+    .articulo1 div {
+        width: 90%;
+    }
+
+    input, textarea {
+        width: 95%;
+    }
+
+    .articulo2 p {
+        columns: 2;
+        width: 80%;
+    }
+
+}
